@@ -6,7 +6,6 @@ import Unocss from 'unocss/vite'
 import { presetAttributify, presetUno } from 'unocss'
 import path from 'path'
 
-console.log(process.env.NODE_ENV)
 export default defineConfig({
   base: './',
   server: {
